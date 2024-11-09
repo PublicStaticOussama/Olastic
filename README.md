@@ -75,7 +75,7 @@ if __name__ == "__main__":
     asyncio.run(main())
 
 ```
-# Specification
+# Specifications
 ## Interfaces
 ### Schema Interface
 All of the methods that can be called by any schema representing an elastic index are defined in this interface"

@@ -79,7 +79,7 @@ if __name__ == "__main__":
 ## Interfaces
 ### Schema Interface
 All of the methods that can be called by any schema representing an elastic index are defined in this interface"
-```
+```python
 class Schema(Olastic):
     # Schema.__init__ has to be defined in Schema because it has to replace Olastic.__init__
     def __init__(self):
@@ -123,7 +123,7 @@ class Schema(Olastic):
 ```
 ### Query Builder Interface
 the `Schema.find()` method returns a builer object of type `OlasticQuery` that can be used to build update, delete, count, aggregation queries, but if you only want to retrive results u can call `OlasticQuery.exec()`. All of the methods are defined in this interface:
-```
+```python
 class OQueryInterface:
     def sortBy(self, field, asc=True):
         pass

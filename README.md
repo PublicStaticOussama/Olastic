@@ -6,7 +6,7 @@ Simple and Lightweight ELasticsearch index to object mapper for python inspired 
 
 ## overview
 ### Olastic connection wrapper class
-when using Olastic it is required to connect to the ELsatic server or cluster first using the Olastic class, otherwise no OlasticSchema would be able to function.
+when using Olastic it is required to connect to the Elasticsearch server or cluster first using the Olastic class, otherwise no OlasticSchema would be able to function.
 for now Olastic dependens on asyncio coroutines (asyncio plays the same role as Node.js's event loop, coroutines are kind of like Promises in javascript)
 
 
